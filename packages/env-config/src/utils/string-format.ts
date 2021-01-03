@@ -7,6 +7,6 @@ export const stringFormat = (...args: any[]) => {
   const format: string = args[0];
   args = Array.prototype.slice.call(args, 1);
   return format.replace(/{(\d+)}/g, function (match, number) {
-    return typeof args[number] != "undefined" ? args[number] : match;
+    return typeof args[number] != 'undefined' ? args[number] : match;
   });
 };

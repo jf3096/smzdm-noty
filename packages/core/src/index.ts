@@ -1,4 +1,4 @@
-import { envConfig } from './../../env-config/src/index';
+import { envConfig } from '@smzdm/env-config';
 import './logger';
 import { DB } from './db';
 import { fetchList, generateGoodHash } from './fetch-list';

@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
-    "build": "rimraf lib && tsc",
+    "build": "rimraf lib && tsc src/index.ts",
     "test": "jest --coverage"
   },
   "dependencies": {
     "dotenv-flow": "^3.2.0",
+    "glob": "^7.1.6",
+    "globby": "^11.0.1",
     "tiny-invariant": "^1.1.0"
   },
   "devDependencies": {
