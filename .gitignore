@@ -1,3 +1,4 @@
 node_modules
 .history
 .env.production
+packages/env-config/.env.production
