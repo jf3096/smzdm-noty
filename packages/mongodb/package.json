@@ -1,5 +1,5 @@
 {
-  "name": "smzdm-noty-mongodb",
+  "name": "@smzdm/noty-mongodb",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

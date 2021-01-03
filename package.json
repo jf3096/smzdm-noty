@@ -9,7 +9,7 @@
     "start:development": "lerna run development --scope=@smzdm/noty",
     "start:production": "lerna run production --scope=@smzdm/noty",
     "lerna:bootstrap": "lerna bootstrap",
-    "test:mongodb": "lerna run test --scope mongodb",
+    "test:mongodb": "lerna run test --scope @smzdm/noty-mongodb",
     "lerna:add-jest": "cd packages/env && yarn add ts-jest jest @types/jest typescript -D",
     "lerna:clean": "lerna clean",
     "lerna:updated": "lerna:updated",
